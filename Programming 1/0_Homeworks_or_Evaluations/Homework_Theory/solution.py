@@ -8,7 +8,7 @@ def main():
 
     # Codigo para Pregunta 1 comienza aqui
 
-    print("")
+    print("Bienvenido " + N +"!")
 
     # Codigo para Pregunta 1 acaba aqui
 
@@ -18,7 +18,8 @@ def main():
 
     # Codigo para Pregunta 2 comienza aqui
 
-    print("")
+    result = (N ** 3) - 1
+    print(result)
 
 
     # Codigo para Pregunta 2 acaba aqui
@@ -28,7 +29,8 @@ def main():
     M = int(input("M: "))
     # Codigo para Pregunta 3 comienza aqui
 
-    print("")
+    result = N ** M
+    print(result)
 
     # Codigo para Pregunta 3 acaba aqui
     
@@ -39,7 +41,8 @@ def main():
 
     # Codigo para Pregunta 4 comienza aqui
 
-    print("")
+    result = N / 2.7182
+    print(result)
 
     # Codigo para Pregunta 4 acaba aqui
 
@@ -48,7 +51,11 @@ def main():
     N = str(input("Personaje: "))
 
     # Codigo para Pregunta 5 comienza aqui
-    print("")
+
+    if N == "Batman" or N =="Superman":
+        print("Héroe!")
+    else:
+        print("Villano!!")
 
     # Codigo para Pregunta 5 acaba aqui
 
