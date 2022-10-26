@@ -44,3 +44,15 @@ print(tablaTFIDF_PCA)
 
 tablaTFIDF_PCA.to_csv("Tipos_agrupados_PCA.csv")
 
+print()
+print("Nombrando los  indices de los cluster del PCA por tipos que van cambiando aleatoriamente")
+tablaTFIDF_PCA["tipos_comprimidos"]=tablaTFIDF_PCA["tipos_comprimidos"].replace([0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17],
+                                          ["Acero","Agua","Bicho","Dragon","Eléctrico","Fantasma",
+                                           "Fuego","Hada","Hielo","Lucha","Normal","Planta","Psiquico",
+                                           "Roca","Siniestro","Tierra","Veneno","Volador"])
+
+columna_tipos=tablaTFIDF_PCA["tipos_comprimidos"]
+print(columna_tipos)
+'''d_PCA=pd.concat([datos.Pokemon,columna_tipos],axis=1)
+print(d_PCA)'''
+
