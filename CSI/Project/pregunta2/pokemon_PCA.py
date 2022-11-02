@@ -1,6 +1,6 @@
 import pandas as pd
-from sklearn.cluster import KMeans
 from sklearn.decomposition import PCA
+from sklearn.cluster import KMeans
 
 datos = pd.read_csv("Agrupacion_en_tipos.csv")
 #imprimimos todo el dataset (incluye el índice de el dataframe anterior)
