@@ -1,0 +1,1 @@
+{"1": {"nombre": "prog1", "carrera": "cs", "ciclo": "1", "creditos": 4, "docente": {"nombre": "Ricardo", "correo": "Ricardo", "horario": "4-6"}}, "2": {"nombre": "prog2", "carrera": "cs", "ciclo": "2", "creditos": 4, "docente": {"nombre": "Juan", "correo": "Juan", "horario": "2-4"}}}
