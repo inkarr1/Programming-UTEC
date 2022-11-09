@@ -9,6 +9,10 @@ print(d)
 del d['name']
 print(d)
 
+print(d.keys())
+print(d.values())
+print(d.items())
+
 # Borrar totalmente del diccionario
 del c
 print(c)
@@ -16,4 +20,3 @@ print(c)
 # Borrar parcialmente
 d.clear()
 print(d)
-
