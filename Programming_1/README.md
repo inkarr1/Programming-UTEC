@@ -1,5 +1,8 @@
 # Programming 1
-## Estructuras de Control Selectiva
+## 1・Type Data and Aritmetics Operators
+[Ejercicios](https://github.com/jhanpieremontes/Programming-UTEC/tree/master/Programming_1/1_Type_Data_and_Aritmetics_Operators)
+
+## 1Estructuras de Control Selectiva
 La estructura selectiva permite ejecutar instrucciones según un criterio o condición.
 
 ### Selectiva Simple - If
