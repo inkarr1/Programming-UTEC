@@ -1,5 +1,3 @@
-#Escribe un programa en Python que permita hallar el area y el volumen de una esfera.
-
 radio = float(input("Ingrese el radio de la esfera: "))
 pi = 3.14
 
