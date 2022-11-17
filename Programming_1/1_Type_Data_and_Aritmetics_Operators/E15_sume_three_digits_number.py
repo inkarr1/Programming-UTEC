@@ -1,5 +1,3 @@
-# Desarrolle unprograma que permita hallar la suma de los digitos de un numero de 3 digitos.
-
 numero = int(input("Numero de 3 cifras: "))
 
 unidades = numero % 10

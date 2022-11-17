@@ -52,3 +52,49 @@ Donde:
 ### 🚪E14・Calcular el area de una habitacion
 Escriba  un  programa  que  le  pida  al  usuario  que  ingrese  el  ancho  y  el  largo  de  una habitación. Una vez leídos los valores, su programa debe calcular y mostrar el área de la habitación.
 
+### E15・Suma de un número de 3 dígitos
+Desarrolle un programa que permita hallar la suma de los digitos de un numero de 3 digitos.
+```
+1°
+Input:
+Numero de 3 cifras: 345
+
+Output:
+La suma de los digitos es: 12
+
+2°
+Input:
+Numero de 3 cifras: 876
+
+Output:
+La suma de los digitos es: 21
+```
+[Resolución]()
+
+### E16・Convertir segundos a días, horas, minutos y segundos
+Desarrolle un programa que permita convertir segundos a: días, horas, minutos y segundos. El programa deberá mostrar el equivalente de los segundos utilizando el formato:  
+D:HH:MM:SS,  donde  D,HH,MM  y  SS  representan  los  días,  horas,  minutos  y  segundos respectivamente.  
+Las horas, minutos y segundos deberá formatearse de tal manera que solo ocupe exactamente dos dígitos, incluyendo el 0 si es necesario.
+```
+1°
+Input:
+Segundos: 100000
+
+Output:
+Equivale a: 1 : 3 : 46 :  40
+
+2°
+Input:
+Segundos 230000
+
+Output:
+Equivale a: 2 : 15 : 53 :20
+
+3°
+Input:
+Segundos: 350
+
+Output:
+Equivale a: 0 : 0 : 5 : 50
+```
+[Resolution]()

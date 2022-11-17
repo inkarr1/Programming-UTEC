@@ -1,6 +1,3 @@
-# Escriba un código que calcule el consumo de electricidad en soles dado el consumo en kW,
-# con las siguientes condiciones:
-
 consume = int(input("Kw: "))
 
 result = (consume <= 100) * (0.4522 * consume)
