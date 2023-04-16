@@ -19,3 +19,21 @@ Kw: 130
 Output:
 El monto a pagar es: 66.22
 ```
+### E23・
+Desarrolle un programa que permita leer un número entero y el programa indique si el 
+número es par o impar.
+Realice el programa sin utilizar estructuras de control.
+
+```
+Ejemplo 1:
+Numero: 45
+Es impar
+
+Ejemplo 2:
+Numero: 34
+Es par
+
+Ejemplo 3:
+Numero: 0
+Es par
+```
