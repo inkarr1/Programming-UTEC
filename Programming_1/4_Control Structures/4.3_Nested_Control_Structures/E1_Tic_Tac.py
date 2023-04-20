@@ -1,9 +1,9 @@
-number = 0
-while number <= 0 or number > 500:
-    number = int(input("Número [1 - 500]: "))
+num_input = 0
+while num_input<= 0 or number_input > 500:
+    num_input = int(input("Número [1 - 500]: "))
 
 i = 0
-while i < number:
+while i < num_input:
     i += 1
     if i % 4 == 0 and i % 6 == 0:
         print(i, "TicTac")

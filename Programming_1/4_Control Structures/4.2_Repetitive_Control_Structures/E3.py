@@ -1,4 +1,4 @@
-num_input = int(input("Valor de N: "))
+num_input = 0
 
 while num_input <= 0:
     num_input = int(input("Valor de N: "))
