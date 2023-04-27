@@ -1,7 +1,10 @@
-nombre_paciente = input("NOMBRE DEL PACIENTE: ")
-sexo_paciente = input("REGISTRAR SECO DEL PACIENTE: ")
-altura_paciente = float(input("REGISTAR ALTURA (Mts.): "))
+print("DATOS:")
+sex = input("1. REGISTRAR SEXO (Hombre: H / Mujer: M): ").upper()
+height = float(input("2. REGISTRAR ALTURA (Mts.): "))
+weight = int(input("3. REGISTRAR PESO (Kg.): "))
+age = int(input("4. REGISTRAR EDAD (Años): "))
 
-resultado_tidal_litros = 6 * (((50 * (sexo_paciente == "H")) + (45.5 * (sexo_paciente == "M"))) + 0.91 * ((altura_paciente * 100) - 152.4))
+mme_result = (-0.00137 * (age ** 2)) + (0.1074 * (height * 100)) + ((0.3362 * weight + 6.93) * (sex == "H")) + ((0.2462 * weight + 12.04) * (sex == "M"))
 
-print("EL CALCULO DEL VOLUMEN TIDAL DEL PACIENTE", nombre_paciente, "ES:", "{:.2f}".format(resultado_tidal_litros), "mililitros")
+print("EL CALCULO DE LA MASA MUSCULAR ESQUELETICA:")
+print("{:.3f}".format(mme_result), "Kg.")

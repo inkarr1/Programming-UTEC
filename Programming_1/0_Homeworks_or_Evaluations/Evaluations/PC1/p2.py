@@ -1,30 +1,22 @@
-print("Ingrese el producto a consultar:"
-                               "\n1. Aceite"
-                               "\n2. Refrigerante"
-                               "\n3. Filtro"
-                               "\n4. Espejos"
-                               "\n5. Bujia"
-                               "\n6. Amortiguador\n")
-producto_consulta = int(input("Ingrese opcion (1-6): "))
+letter_input = input("Ingrese una letra para buscar el Inca: ").upper()
 
-if producto_consulta == 1:
-    recomendacion = "Filtro y Amortiguador"
-    promocion = "Descuento del 5%"
-elif producto_consulta == 2:
-    recomendacion = "Aceite, Filtro y Bujia"
-    promocion = "Descuento del 5%"
-elif producto_consulta == 3:
-    recomendacion = "Aceite"
-    promocion = "Descuento del 15%"
-elif producto_consulta == 4:
-    recomendacion = "Refrigerante y Filtro"
-    promocion = "Descuento del 15%"
-elif producto_consulta == 5:
-    recomendacion = "Refrigerante y Espejos"
-    promocion = "Descuento del 10%"
-elif producto_consulta == 6:
-    recomendacion = "Aceite y Filtro"
-    promocion = "Descuento del 10%"
-
-print("\nRecomendaciones:\n", recomendacion, "\n",
-      "\nPromocion:\n", promocion)
+if letter_input == "A":
+    print("Atahualpa")
+elif letter_input == "C":
+    print("Capac Yupanqui")
+elif letter_input == "H":
+    print("Huiracocha, Huayna Capac, Huascar")
+elif letter_input == "I":
+    print("Inca Roca, Inca Yupanqui")
+elif letter_input == "M":
+    print("Manco Capac, Mayta Capac")
+elif letter_input == "P":
+    print("Pachacutec")
+elif letter_input == "S":
+    print("Sinchi Roca")
+elif letter_input == "T":
+    print("Tupac Yupanqui")
+elif letter_input == "Y":
+    print("Yoque Yupanqui, Yahuar Huaca")
+else:
+    print("No existe un Inca que inicie con esa letra")
