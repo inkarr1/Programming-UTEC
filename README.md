@@ -1,5 +1,5 @@
 # Programming UTEC
-Repositorio de programación de cursos en UTEC.
+Repositorio de cursos de programacion en UTEC.
 
 ## 1st Cycle
 - [Computer Science Introduction](https://github.com/jhanpieremontes/Programming-UTEC/tree/master/CSI)
