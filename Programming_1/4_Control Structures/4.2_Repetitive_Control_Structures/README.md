@@ -53,3 +53,21 @@ Número [mayor o igual a 1]: 7
 El factorial es: 5040
 ```
 
+
+E4 For
+Realice un programa que lea como dato un número mayor a cero y el programa imprima un triángulo como se muesta enel ejemplo.
+
+Ejecución 1
+````
+Filas: 11
+    1
+   123
+  12345
+ 1234567
+123456789
+````
+Ejecución 2
+````
+Filas: 24
+
+````
