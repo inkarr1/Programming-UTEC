@@ -1,0 +1,14 @@
+- Variables
+- Expresion
+  - Una expresion es una combinacion de valores, variables, operadores y llamadas a funciones.
+- Hola mundo
+  - Print
+- Ingreso y Salida de Datos
+  - `input` permite ingresar datos desde el teclado. En otras palabras, enviar informacion desde la consola hacia el programa.
+    - `input` retorna una cadena
+    - Se puede realizar operaciones con la variable creada
+    - Es posible convertir de cadena a entero utilizando el constructor `int`
+- Caracteres Especiales
+  - `backslash`
+    - Cuando se quiere utilizar comillas simples o dobles dentro de una cadena. Tambien para utilizar otros caracteres, por ejemplo: backslash
+    - Cuando se quiere introducir fin de linea o tabulaciones dentro de una cadena.

@@ -1,7 +1,3 @@
-# Desarrolle un programa que permita leer un numero entero y el programa indique si el
-# numero es par o impar.
-# Realice el programa sin utilizar estructuras de control.
-
 number = int(input("Number: "))
 
 # numero = int(input("Ingrese un numero entero: ")
