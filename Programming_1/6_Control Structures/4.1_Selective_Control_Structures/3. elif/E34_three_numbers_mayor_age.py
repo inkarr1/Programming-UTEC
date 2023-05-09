@@ -1,5 +1,3 @@
-# Escribir un programa que permita ingresar 3 edades e indique cuál es el mayor
-
 age_1 = int(input("Ingrese la primera edad: "))
 age_2 = int(input("Ingrese la segunda edad: "))
 age_3 = int(input("Ingrese la tercera edad: "))

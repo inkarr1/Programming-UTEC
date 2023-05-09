@@ -1,6 +1,3 @@
-# Escribir un programa que permita ingresar un número del 1-7 y muestre su equivalente en letras.
-# Ejemplo: 1 = Lunes, 2 = Martes, 3 = Miércoles, 4 = Jueves, etc. Si esta fuera el rango mostrar el mensaje error.
-
 number_day = int(input("Ingresa el número del día de la semana: "))
 
 if number_day == 1:

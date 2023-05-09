@@ -1,6 +1,3 @@
-# Escribir  un programa que permita leer como dato un número entero y luego imprima si
-# es positivo, negativo o es cero.
-
 number = int(input("Ingrese número: "))
 
 if number > 0:

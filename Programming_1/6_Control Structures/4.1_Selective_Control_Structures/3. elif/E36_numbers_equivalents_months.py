@@ -1,7 +1,3 @@
-# Escribir un programa en Python que permita ingresar un número del 1-12 y muestre el mes que
-# corresponde y la estación a la que pertenece.
-# Ejemplo: 1 = Enero, 2 = Febrero, 3 = Marzo, etc.
-
 number_month = int(input("Ingrese el número del mes: "))
 
 if number_month == 1:
