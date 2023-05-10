@@ -10,7 +10,7 @@ year_now = int(input("Año: "))
 
 age = year_now - year_birth
 
-if  month_now < month_birth:
+if month_now < month_birth:
     age -= 1
 elif month_now == month_birth:
     if day_now < day_birth:
