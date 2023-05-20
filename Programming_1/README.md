@@ -232,3 +232,53 @@ Python proporciona la palabra reservada break que termina un bucle por completo 
 Hasta el momento hemos visto que todas las instrucciones del bucle while se ejecutan en cada iteración.
 Python proporciona la palabra reservada continue que indica al bucle saltar a la evaluación de la condición nuevamente y continuar con el bucle.
 ![img.png](../Assets/while_continue.png)
+
+
+## Strings - Cadenas de caracteres
+___
+Una cadena (string) es un tipo de dato en Python (str) que consiste en una secuencia ordenada de caracteres.
+Una cadena contiene caracteres que pueden ser: letras, números, signos de puntuación, espacios en blanco, caracteres especiales, etc.
+
+
+¿Cómo se representa?
+En Python las cadenas se pueden delimitar utilizando comillas simple, comilla doble o triple comilla.
+
+````python
+mensaje = 'Esto es un string'
+print(mensaje)
+mensaje = "Mi nombre es Carlos D'Alessio"
+print(mensaje)
+mensaje = """Lorem ipsum dolor ait amer,
+consectetur adipiscing elit,
+sed do eiusmod tempor incididunt
+ut labore et dolore magna aliqua."""
+print(mensaje)
+````
+
+### Operaciones con Strings
+#### 1. Concatenación (+)
+Dado 2 strings podemos concatenarlos para formar un solo string. El resultado será un nuevo string que contiene todos los caracteres del primer string seguidos de todos los caracteres del segundo string.
+
+````python
+first_string = "hola"
+second_string = "amigo"
+result = first_string + " " + second_string
+print(result)
+````
+
+#### 2. Repetición (*)
+Podemos producir un string que es el resultado de repetir un mismo string varias veces.
+
+### Uso de índices
+Posiciones dentro de un string.
+
+````python
+s = "Monty Python"
+print(s[2])
+print(s[:6] + s[6:10] + s[10:12])
+print(s[:3] + s[6:8])
+print(s[3:5] + "Ba" + s[8:])
+````
+
+### Inmutables
+Los strings en Python son inmutables. No pueden ser cambiados. No es válida una signación.
