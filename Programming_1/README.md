@@ -282,3 +282,12 @@ print(s[3:5] + "Ba" + s[8:])
 
 ### Inmutables
 Los strings en Python son inmutables. No pueden ser cambiados. No es válida una signación.
+
+## List
+### Comprensión de lista anidadas
+Ejemplo de sintaxis con for anidados:
+
+````python
+lista = [expresion for item1 in iterable for item2 in iterable]
+````
+
