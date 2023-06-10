@@ -81,7 +81,8 @@ Seleccione una de las siguientes opciones:
             else:
                 level_game()
         elif option_general == 3:
-            print("Todavía 2")
+            if jugadores_creados < 2:
+                print("Debe crear al menos dos jugadores antes de iniciar el juego.")
         elif option_general == 0:
             print("Saliste del juego")
             break
