@@ -1,0 +1,6 @@
+LS01, Levotiroxina sodica
+MC01, Metformina clorhidrato
+AI01, Aspirina infantil
+CG01, Clonazepam gotas
+LS02, Lorazepam solucion
+HT01, Hidroclorotiazida tabletas

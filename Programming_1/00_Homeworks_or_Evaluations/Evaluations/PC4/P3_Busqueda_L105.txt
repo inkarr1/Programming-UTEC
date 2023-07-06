@@ -1,0 +1,18 @@
+lista = [
+{'ciudad':'La Rinconada', 'altitud': 5100, 'departamento':'Puno', 'poblacion': 17000},
+{'ciudad':'Cerro de Pasco', 'altitud': 4380, 'departamento':'Pasco', 'poblacion': 66860},
+{'ciudad':'Junin', 'altitud': 4105, 'departamento':'Junin', 'poblacion': 10000},
+{'ciudad':'Yauri', 'altitud': 3976, 'departamento':'Cusco', 'poblacion': 29772},
+{'ciudad':'Yanaoca', 'altitud': 3913, 'departamento':'Cusco', 'poblacion': 11000},
+{'ciudad':'Ayaviri', 'altitud': 3907, 'departamento':'Puno', 'poblacion': 20152},
+{'ciudad':'Lampa', 'altitud': 3878, 'departamento':'Puno', 'poblacion': 14780},
+{'ciudad':'Ilave', 'altitud': 3862, 'departamento':'Puno', 'poblacion': 22153},
+{'ciudad':'Azangaro', 'altitud': 3859, 'departamento':'Puno', 'poblacion': 35230},
+{'ciudad':'Juli', 'altitud': 3850, 'departamento':'Puno', 'poblacion': 23741},
+{'ciudad':'Yunguyo', 'altitud': 3847, 'departamento':'Puno', 'poblacion': 11890},
+{'ciudad':'Juliaca', 'altitud': 3824, 'departamento':'Puno', 'poblacion': 216716},
+{'ciudad':'Puno', 'altitud': 3810, 'departamento':'Puno', 'poblacion': 120229},
+{'ciudad':'La Oroya', 'altitud': 3745, 'departamento':'Junín', 'poblacion': 29417},
+{'ciudad':'Huancavelica', 'altitud': 3676, 'departamento':'Huancavelica', 'poblacion': 41331},
+{'ciudad':'Sicuani', 'altitud': 3549, 'departamento':'Cusco', 'poblacion': 42551},
+]
